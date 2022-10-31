@@ -23,6 +23,7 @@ type Captcha struct {
 
 type StrType int
 
+//生成验证码的类型
 const (
 	NUM   StrType = iota // 数字
 	LOWER                // 小写字母
@@ -33,6 +34,7 @@ const (
 
 type DisturLevel int
 
+//混淆级别
 const (
 	NORMAL DisturLevel = 4
 	MEDIUM DisturLevel = 8
